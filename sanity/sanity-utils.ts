@@ -1,6 +1,7 @@
 import { structureTool } from "sanity/structure";
 import schemas from "./schemas";
 import { createClient, groq } from "next-sanity";
+//import groq from 'groq';
 
 export async function getProjects() {
     const client = createClient({
@@ -9,14 +10,16 @@ export async function getProjects() {
         apiVersion: "2023-03-04",
     });
 
-    client.fetch(
+    return client.fetch(
         groq`*[_type == "product"]{
             _id,
-            _createAt,
+            _createdAt, // Corrected field name
             name,
-            "slug", slug.current,
-
-
+            "slug": slug.current,
+            "image": image.asset->url,
+            url,
+            content
         }`
-    )
+      )
+      
 }

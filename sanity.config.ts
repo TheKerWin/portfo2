@@ -11,7 +11,7 @@ const config = defineConfig({
     title: "My Personal Website",
     apiVersion: "2024-01-11",
     basePath: "/admin",
-    plugins: [structureTool()],
+    plugins: [structureTool(), visionTool()],
     schema: {types: schemas }
 
 })

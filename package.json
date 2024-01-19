@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "groq": "^3.24.1",
     "next": "14.0.4",
     "next-sanity": "^7.0.9",
     "react": "^18",
