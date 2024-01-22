@@ -11,7 +11,7 @@ export async function getProjects() {
     });
 
     return client.fetch(
-        groq`*[_type == "product"]{
+        groq`*[_type == "project"]{
             _id,
             _createdAt, // Corrected field name
             name,
