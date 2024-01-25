@@ -41,8 +41,8 @@ export default async function Project({ params }: Props) {
       <Image
       src ={project.image}
       alt={project.name}
-      width={1920}
-      height={1080}
+      width={800}
+      height={534}
       className="mt-10 border-2 border-gray-700 object-cover rounded-xl"
       />
     </div>
