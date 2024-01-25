@@ -12,7 +12,7 @@ export default async function Project({ params }: Props) {
   const project = await getProject(slug);
 
   return (
-    <div className="max-w-3xl mx-auto py-20">
+    <div>
       {/* Header goes here */}
       <header className="flex items-center justify-between">
         <h1
