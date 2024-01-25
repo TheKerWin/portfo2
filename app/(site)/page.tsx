@@ -20,7 +20,7 @@ export default async function Home() {
         </h1>
         <p className="mt-3 text-xl text-gray-600">
           {" "}
-          Aloha Everyone Check out my project!
+          Hello, My name is Kerwin Mercado and I am a Software Engineer.
         </p>
        {/* My Project section */}
       <h2 className="mt-24 font-bold text-gray-700 text-3xl">My Projects</h2>
