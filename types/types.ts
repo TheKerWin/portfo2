@@ -7,5 +7,13 @@ export type Project = {
     slug: string; 
     image: string;
     url: string;
-    content: PortableTextBlock[]
+    content: PortableTextBlock[];
+}
+
+export type Page = {
+    _id: string;
+    _createdAt: Date;
+    title: string;
+    slug: string; 
+    content: PortableTextBlock[];
 }
