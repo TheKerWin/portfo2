@@ -1,1 +1,1 @@
-export { API_ENDPOINT } from './apiConstants';
+export { ABOUT_ME_TEXT } from './apiConstants';
