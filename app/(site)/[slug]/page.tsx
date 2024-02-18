@@ -14,7 +14,7 @@ return (
       text-transparent text-5xl drop-shadow font-extrabold">
         {page.title}
         </h1>
-        <div className="text-lg text-white-600 mt-10">
+        <div className="text-lg text-cowboy-white mt-10">
             <PortableText value={page.content}/>
         </div>
     </div>

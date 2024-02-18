@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "../globals.css";
 import Link from "next/link";
 import { getPages } from "@/sanity/sanity-utils";
+import bgImage from '../img/HexPatternBg.png';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,7 +25,7 @@ export default async function RootLayout({
         <header className="flex items-center justify-between">
           <Link
             href="/"
-            className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text
+            className="bg-gradient-to-r from-cowboy-orange-dark via-cowboy-orange to-cowboy-skin bg-clip-text
           text-transparent text-lg font-bold"
           >
             Home
@@ -37,8 +38,7 @@ export default async function RootLayout({
             ))}
           </div>
         </header>
-
-        <main className="py-20 bg-gradient-to-b from-neutral-900  to-purple-900">{children}</main>
+        <main className="py-20 bg-hex-pattern bg-cover bg-center bg-repeat">{children}</main>
       </body>
     </html>
   );
