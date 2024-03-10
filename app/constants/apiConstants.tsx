@@ -9,3 +9,6 @@ On my spare time, I like to read books, play music, workout and maintain an art 
 on Instagram (@pseudokoder on IG). I want to document and perhaps provide insight
 of my experience as a software engineer to help other like-minded individuals. 
   `;
+
+export const TITLE_TEXT_STYLE = "text-20xl opacity-30"
+export const SUBTITLE_TEXT_STYLE = "text-2xl font-hairline"

@@ -14,7 +14,8 @@ module.exports = {
         'hex-pattern' : "url('../app/img/hexpatternbg.png')",
         'circuit-pattern' : "url('../app/img/CircuitPatternbg1.PNG')",
         'close-boxes' : "url('../app/img/bg2-closeBoxes.PNG')",
-        'far-boxes' : "url('../app/img/bg1-farBoxes.PNG')"
+        'far-boxes' : "url('../app/img/bg1-farBoxes.PNG')",
+        'profile-pic' : "url('../app/img/ProfileCircleFinal.png')"
 
       },
       colors: {
