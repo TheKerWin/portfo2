@@ -2,6 +2,8 @@ import {
   ABOUT_ME_TEXT,
   TITLE_TEXT_STYLE,
   SUBTITLE_TEXT_STYLE,
+  ABOUT_ME_TEXT_PHIL,
+  ABOUT_ME_TEXT_FUN,
 } from "@/app/constants/apiConstants";
 import React from "react";
 import styles from "./style.module.css"; // Uncomment this line
@@ -31,7 +33,11 @@ const AboutMe = () => {
           />
         </div>
         <div className="ml-7 max-w-2xl">
-          <p className=" text-justify mr-1">Hello, Kerwin Here! {ABOUT_ME_TEXT}</p>
+        <p className="text-justify mr-1">
+  <span>{ABOUT_ME_TEXT}</span> <br/> <br/>
+  <span>{ABOUT_ME_TEXT_PHIL}</span> <br/> <br/>
+  <span>{ABOUT_ME_TEXT_FUN}</span>
+</p>
         </div>
       </div>
     </div>
