@@ -44,9 +44,13 @@ export default async function Home() {
           </Link>
         ))}
       </div>
-      // About me section
+  
+      
+
       <h2 className="mt-24 font-bold bg-gradient-to-r from-cowboy-orange to-cowboy-purple-dark text-3xl font-mono">About Me</h2>
+      <div className = "container mx-auto px-12 ">
       <AboutMe />
+      </div>
     </div>
   );
 }

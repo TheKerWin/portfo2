@@ -10,5 +10,5 @@ on Instagram (@pseudokoder on IG). I want to document and perhaps provide insigh
 of my experience as a software engineer to help other like-minded individuals. 
   `;
 
-export const TITLE_TEXT_STYLE = "text-20xl opacity-30"
-export const SUBTITLE_TEXT_STYLE = "text-2xl font-hairline"
+export const TITLE_TEXT_STYLE = "text-8xl opacity-30 relative z-10 font-bold -bottom-10";
+export const SUBTITLE_TEXT_STYLE = "text-2xl font-hairline relative -top-5 z-0";
