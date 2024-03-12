@@ -1,6 +1,8 @@
 import { getProjects } from "@/sanity/sanity-utils";
 import Image from "next/image";
 import Link from 'next/link'
+import AboutMe from "../components/AboutMe";
+import { SocialMediaButtons } from "../components/SocialMediaButtons";
 
 export default async function Home() {
   const projects = await getProjects();
@@ -42,6 +44,15 @@ export default async function Home() {
             </div>
           </Link>
         ))}
+      </div>
+  
+      
+
+      <h2 className="mt-24 font-bold bg-gradient-to-r from-cowboy-orange to-cowboy-purple-dark text-3xl font-mono">About Me</h2>
+      import SocialMediaButtons from "../components/SocialMediaButtons";
+
+      <div className="container mx-auto px-12">
+        <AboutMe />
       </div>
     </div>
   );
