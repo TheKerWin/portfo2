@@ -1,1 +1,1 @@
-export { default as OverlapWords } from './overlapWords';
+export { default as OverlapWords } from './OverlapWords';

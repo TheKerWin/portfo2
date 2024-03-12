@@ -7,9 +7,11 @@ import {
 } from "@/app/constants/apiConstants";
 import React from "react";
 import styles from "./style.module.css"; // Uncomment this line
-import { OverlapWords } from "../overlapWords";
+import { OverlapWords } from "../OverlapWords";
 import Image from "next/image";
 import profilePic from "@/app/img/ProfileCircleFinal.png";
+import SocialMediaButtons from "../SocialMediaButtons/SocialMediaButtons";
+import SocialMediaButtons2 from "../SocialMediaButtons/SocialMediaButtons2";
 
 const AboutMe = () => {
   return (
@@ -32,12 +34,16 @@ const AboutMe = () => {
             ]}
           />
         </div>
+        
         <div className="ml-7 max-w-2xl">
-        <p className="text-justify mr-1">
-  <span>{ABOUT_ME_TEXT}</span> <br/> <br/>
-  <span>{ABOUT_ME_TEXT_PHIL}</span> <br/> <br/>
-  <span>{ABOUT_ME_TEXT_FUN}</span>
-</p>
+          <p className="text-justify mr-1">
+            <span>{ABOUT_ME_TEXT}</span> <br /> <br />
+            <span>{ABOUT_ME_TEXT_PHIL}</span> <br /> <br />
+            <span>{ABOUT_ME_TEXT_FUN}</span>
+          </p>
+          <div className="mt-5">
+          <SocialMediaButtons2/>
+        </div>
         </div>
       </div>
     </div>
